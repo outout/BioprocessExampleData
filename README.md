@@ -10,7 +10,7 @@ There are three folders
 Each folder contains a file `experimental_conditions.csv` that lists the process conditions. The subfolders `HP1` ... `HP5` or `NP` then contain experimental runs obtained with these conditions for the products. 
 
 For example `training_historic/HP1/HP1_ExpHist00.csv` contains the measurements obtained for the experimental condition `ExpHist00` (which is found in `training_historic/experimental_conditions.csv`) with the product `HP1`. I.e. measurements for 6 quantities once per day. 
-The file `HP1_ExpHist00.csv` further contains intermediate measurements throughout each day. This is used for model training and included here to provide a better understanding of the bioprocess emulator.
+The file `HP1_ExpHist00_details.csv` further contains intermediate measurements throughout each day. This is NOT used for model training and included here to provide a better understanding of the bioprocess emulator.
 
 # Measured Quantities
 * VCD (Viable Cell Density)
